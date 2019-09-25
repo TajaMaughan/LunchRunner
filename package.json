@@ -1,0 +1,25 @@
+{
+  "name": "lunchrunner",
+  "version": "1.0.0",
+  "description": "Lunch run organizer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start-server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TajaMaughan/LunchRunner.git"
+  },
+  "author": "Mataja Maughan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TajaMaughan/LunchRunner/issues"
+  },
+  "homepage": "https://github.com/TajaMaughan/LunchRunner#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
